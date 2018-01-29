@@ -1,0 +1,29 @@
+{
+  "name": "basicredirectexpress",
+  "version": "1.0.0",
+  "description": "basic redirect using expressjs",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.16.2",
+    "nodemon": "^1.14.11"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ul1ra/basicRedirect.git"
+  },
+  "keywords": [
+    "basic",
+    "redirect",
+    "expressjs"
+  ],
+  "author": "bpc",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ul1ra/basicRedirect/issues"
+  },
+  "homepage": "https://github.com/Ul1ra/basicRedirect#readme"
+}
