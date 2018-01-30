@@ -32,4 +32,8 @@ app.get('*', handleRedirect);
 const port = process.env.port || 3000;
 
 // Now we tell the express app to listen to that port which makes it start the webservser
+<<<<<<< HEAD
 app.listen(port);
+=======
+app.listen(port);
+>>>>>>> f210e986b3c11ad94af8dc003ac73e74fd9725cc
