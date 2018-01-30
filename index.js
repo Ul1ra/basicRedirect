@@ -16,7 +16,7 @@ function handleRedirect(req, res) {
   // Combine the original url with our target website
   const targetUrl = targetBaseUrl + req.originalUrl;
 
-  // Tell the response object ob express to redirect
+  // Tell the response object of express to redirect
   // This sends a HTTP Response with the Code 301 and a line
   // Location: targetUrl
   res.redirect(targetUrl);
@@ -32,8 +32,4 @@ app.get('*', handleRedirect);
 const port = process.env.port || 3000;
 
 // Now we tell the express app to listen to that port which makes it start the webservser
-<<<<<<< HEAD
 app.listen(port);
-=======
-app.listen(port);
->>>>>>> f210e986b3c11ad94af8dc003ac73e74fd9725cc
